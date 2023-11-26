@@ -126,22 +126,15 @@
     </div>
   </section>
 
-
-  <!-- Teaser video-->
-  <!-- <section class="hero teaser">
-    <div class="container is-max-desktop">
-      <div class="hero-body">
-        <video poster="" id="tree" autoplay controls muted loop height="100%">
-          <source src="static/videos/banner_video.mp4" type="video/mp4">
-        </video>
-        <h2 class="subtitle has-text-centered">
-          Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat
-          pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.
-        </h2>
+  <!-- Image carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+        <img src="static/images/teaser.svg" alt="teaser image" style="width: 40%" />
       </div>
     </div>
-  </section> -->
-  <!-- End teaser video -->
+  </section>
+  <!-- End image carousel -->
 
   <!-- Paper abstract -->
   <section class="section hero is-light">
@@ -168,14 +161,35 @@
     </div>
   </section>
   <!-- End paper abstract -->
-
-  <section class="section hero is-small">
+  
+  <!-- Teaser video-->
+  <section class="hero teaser">
     <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <span style="font-size: 2.5rem;">⚠️ This page is under construction. ⚠️</span>
+      <div class="hero-body">
+        <h2 class="title is-3" style="margin-top: 4rem;">Results</h2>
+        <p style="margin-bottom: 2rem;">It may take a moment for these videos to load.</p>
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <source src="static/videos/output_acid.mp4" type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          Results on the ACID dataset.
+        </h2>
       </div>
     </div>
   </section>
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <source src="static/videos/output_re10k.mp4" type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          Results on the Real Estate 10k dataset.
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- End teaser video -->
 
   <!-- Image carousel -->
   <!-- <section class="hero is-small">
